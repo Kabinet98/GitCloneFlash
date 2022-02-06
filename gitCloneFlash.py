@@ -11,14 +11,9 @@ class gitCloneFlash:
     
     def getGitOwnerAndRepository(self, listOfGitUrl):
         extractOwnerAndRepositoryList = [gitUrl.split('/')[3::] for gitUrl in listOfGitUrl][1::]
-        return extractOwnerAndRepositoryList
+        return None
         
-        #getOwnerAndRepositoryList = []
-        #for i in extractOwnerAndRepositoryList:
-        #    if i.endswith('.git'):
-        #        i = i.replace('.git', '')
-        #    getOwnerAndRepositoryList.append(i)
-        #return getOwnerAndRepositoryList
+       
         
     def generateMooseModel(self, listOfCvsDatas):
         self.cloneRepositories(self.retrieveGitUrlFromCsvFile(listOfCvsDatas)) #? clone the github repository
