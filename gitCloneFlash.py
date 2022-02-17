@@ -2,6 +2,7 @@ from operator import concat
 import os 
 import csv
 import sys
+import platform
 from interaction import *
 
 class gitCloneFlash:
@@ -27,7 +28,10 @@ class gitCloneFlash:
         self.checkPathExistence(repository)
         for folders in os.listdir(os.getcwd()):
             if(str(concat(folders, '.git')) in self.checkClonableFolder(listOfCvsDatas)):
-                folderCurrentPath = os.getcwd()+'/'+folders
+                if(platform.system() =='Windows'):
+                    pathSlash = r'\\'
+                else: pathSlash = '/'
+                folderCurrentPath = os.getcwd()+ pathSlash +folders
                 self.executeFamixImporter(repository, folderCurrentPath, folders)   
             else:
                 continue 
@@ -78,12 +82,9 @@ class gitCloneFlash:
     
     def CloneFlash(self, fileDirectory):
         csvfilerows = self.checkCsvFileExistance(fileDirectory) 
-        
         repository = input(yesOrNoInput) 
-        
         while(repository.lower() not in  ('yes', 'no')):
             repository = input(WrongYesOrNoInput)
-        
         if(repository.lower() == 'yes'):
             repository = input(repositoryPathInput)
             self.checkPathExistence(repository, 'yes') 
@@ -92,6 +93,7 @@ class gitCloneFlash:
            #self.cloneRepositories(self.retrieveGitUrlFromCsvFile(csvfilerows))
            #self.generateMooseModel(csvfilerows)   
            print(self.getGitOwnerAndRepository(self.retrieveGitUrlFromCsvFile(csvfilerows)))
+           
         
         
         
