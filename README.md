@@ -9,11 +9,15 @@ GitcloneFlash is a script developed in python allowing users to clone all github
 
 ## Instructions
 
-The CSV file that you're going to provide must have the following syntax: projectName, GitURl with .git extension.
+Inside the CSV file that you're going to provide, you  must follow this syntax: projectName, GitURl with .git extension.
 
 ## Example
 
 Redux, https://github.com/reduxjs/redux.git
+
+## NB
+Keep in mind that you must provide only 100% typescript project like this project below:
+TypeScript-Game, https://github.com/GuidovdRiet/typescript-game.git
 
 ## Installation and Execution
 
