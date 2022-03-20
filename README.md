@@ -20,6 +20,8 @@ Keep in mind that you must provide only 100% typescript project like this projec
 
 TypeScript-Game, https://github.com/GuidovdRiet/typescript-game.git
 
+And the Data folder above is just a folder including some CSV files that contain  projects for test purposes (All projects are not 100% typeScript)
+
 ## Installation and Execution
 
 You need to install [python](https://www.python.org/downloads/) to execute this script and you need to follow all installation instructions of [FamixTypeScriptImporter](https://github.com/Arezoo-Nasr/FamixTypeScriptImporter).
