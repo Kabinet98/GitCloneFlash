@@ -17,6 +17,7 @@ Redux, https://github.com/reduxjs/redux.git
 
 ## NB
 Keep in mind that you must provide only 100% typescript project like this project below:
+
 TypeScript-Game, https://github.com/GuidovdRiet/typescript-game.git
 
 ## Installation and Execution
