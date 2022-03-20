@@ -1,6 +1,6 @@
 # GitcloneFlash ⚡️
 
-GitcloneFlash is a script developed in python allowing users to clone all github repositories, retrieved from a Csv file and create a json model that's going to be used in Moose to analyze the cyclomatic complexity of cloned projects.
+GitcloneFlash is a script developed in python allowing users to clone all retrieved github typeScript repositories from a Csv file and create a json template which will be used in Moose to analyze the cyclomatic complexity of the cloned projects and also create a file csv containing the statistics of the different projects like: the number of stars, of commits, etc ...
 ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
