@@ -1,4 +1,2 @@
 ProjectName, URL
-Ganache, https://github.com/trufflesuite/ganache.git
-React,https://github.com/facebook/react.git
-Redux,https://github.com/reduxjs/redux.git
+Angular, https://github.com/gothinkster/angular-realworld-example-app.git

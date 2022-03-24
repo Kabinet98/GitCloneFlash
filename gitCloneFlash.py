@@ -72,7 +72,7 @@ class gitCloneFlash:
             writer.writeheader()
             writer.writerows(data)
             
-        return 'The Csv Stats file has been created in the following directory : ${0} '.format(os.getcwd())
+        return 'The Csv Stats file has been created in the following directory : {0} '.format(os.getcwd())
         
     def generateMooseModel(self, listOfCvsDatas):
         self.cloneRepositories(self.retrieveGitUrlFromCsvFile(listOfCvsDatas)) 
@@ -90,13 +90,12 @@ class gitCloneFlash:
             
     def checkClonableFolder(self, listOfEachCsvFileRow):
         git = self.retrieveGitUrlFromCsvFile(listOfEachCsvFileRow)
-        #git = [url[1] for url in listOfEachCsvFileRow]
-        new = []
+        folders = []
         for element in git:
             if(element.endswith('.git')):
                element = element.split('/')[-1]
-               new.append(element)
-        return new
+               folders.append(element)
+        return folders
                        
     def retrieveGitUrlFromCsvFile(self, listOfEachCsvFileRow):
         return [url[1] for url in listOfEachCsvFileRow]
