@@ -9,6 +9,7 @@ GitcloneFlash is a script developed in python allowing users to clone all retrie
 
 ## Instructions
 
+Install requests via pip depending on your OS
 Inside the CSV file that you're going to provide, you  must follow this syntax: projectName, GitURl with .git extension.
 
 ## Example
