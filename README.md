@@ -7,6 +7,10 @@ GitcloneFlash is a script developed in python allowing users to clone all retrie
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
+## Warning
+
+Github doesn't allow multiples requests at the same time, so make sure to put inside the CSV file only 10 repositories at the same time, otherwise you will  be facing some errors while compiling.
+
 ## Instructions
 
 Install requests via pip depending on your OS
