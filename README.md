@@ -9,7 +9,7 @@ GitcloneFlash is a script developed in python allowing users to clone all retrie
 
 ## Warning
 
-Github doesn't allow multiples requests at the same time, so make sure to put inside the CSV file only 10 repositories at the same time, otherwise you will  be facing some errors while compiling.
+Github doesn't allow multiples requests at the same time, so make sure to put inside the CSV file only 10 repositories at the same time, otherwise you will  be facing some errors while compiling. If you get some errors when generating the stats for projects, try changing your internet connexion so your IP address will change and you will be able to generate the stats.
 
 ## Instructions
 
