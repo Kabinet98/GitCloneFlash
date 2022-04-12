@@ -31,7 +31,7 @@ And the Data folder above is just a folder including some CSV files that contain
 ## Installation and Execution
 
 You need to install [python](https://www.python.org/downloads/) to execute this script and you need to follow all installation instructions of [FamixTypeScriptImporter](https://github.com/Arezoo-Nasr/FamixTypeScriptImporter).
-Make sure to be in the same directory than the script.
+Make sure to be in the same directory than the script to execute this command.
 
 ```
 python gitCloneFlash.py csvFileDirectory
