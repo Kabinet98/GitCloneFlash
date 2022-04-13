@@ -27,6 +27,7 @@ Keep in mind that you must provide only 100% typescript project like this projec
 TypeScript-Game, https://github.com/GuidovdRiet/typescript-game.git
 
 And the Data folder above is just a folder including some CSV files that contain  projects for test purposes (All projects are not 100% typeScript)
+
 If they ask you to provide the FamixTypeScriptImporter directory: you can provide the relative link like: 
 ```
 /Download/FamixTypeScriptImporter
